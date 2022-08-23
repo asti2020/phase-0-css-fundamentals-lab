@@ -3,3 +3,51 @@ body {
   height: 100%;
   margin: 0;
 }
+*{text-align: center;}
+h1{
+  text-align: center;
+}
+
+figure img{
+  display: block ;
+  margin: auto;
+align-items: center;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+}
+
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: gray;
+}
+#featured-property {
+  width: 100%;
+  align-items: center;
+}
+
+#featured-property p{
+  width: 800px;
+  margin: auto;
+  
+}
+
+#details{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+
+}
+ #details.mero{
+   display: inline;
+ }
+ .mero { float: left;
+  margin: auto;
+    align-items: center;
+}
